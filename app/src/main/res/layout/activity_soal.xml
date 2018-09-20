@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:id="@+id/relativeProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_dark"
+        android:elevation="5dp">
+
+
+
+        <ImageView
+            android:id="@+id/foto_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbarProfil"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/nama_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foto_user"
+            android:layout_centerHorizontal="true"
+            android:text="Soal Matematika"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/poin_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama_user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="Kategori : SMA"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:gravity="center_horizontal">
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/group1">
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/question"
+                android:text="1. tentukan nilai f(1) dari persamaan f(x)=x+3" />
+
+            <RadioButton android:checked="false" android:id="@+id/answer1"
+                android:text="2" />
+
+            <RadioButton android:checked="false" android:id="@+id/answer2"
+                android:text="3"/>
+
+            <RadioButton android:checked="false" android:id="@+id/answer3"
+                android:text="4"/>
+
+            <RadioButton android:checked="false" android:id="@+id/answer4"
+                android:text="5"/>
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="5dip"-->
+        <!--android:paddingBottom="5dip"-->
+        <!--android:gravity="center_horizontal">-->
+
+        <!--<RadioGroup-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:id="@+id/group2">-->
+
+            <!--<TextView android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="#000000"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:id="@+id/question2"-->
+                <!--android:text="2. tentukan nilai f(1) dari persamaan f(x)=x+3" />-->
+
+            <!--<RadioButton android:checked="false" android:id="@+id/answer1_2"-->
+                <!--android:layout_width="101dp"-->
+                <!--android:text="2" />-->
+
+            <!--<RadioButton android:checked="false" android:id="@+id/answer2_2"-->
+                <!--android:text="3"/>-->
+
+            <!--<RadioButton android:checked="false" android:id="@+id/answer3_2"-->
+                <!--android:text="4"/>-->
+
+            <!--<RadioButton android:checked="false" android:id="@+id/answer4_2"-->
+                <!--android:text="5"/>-->
+
+        <!--</RadioGroup>-->
+
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip"
+        android:paddingBottom="5dip"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:background="@color/primary_dark"
+            android:id="@+id/nextBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="NEXT"
+            android:fontFamily="sans-serif-light"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textViewMapel"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

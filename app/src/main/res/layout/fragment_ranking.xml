@@ -1,0 +1,35 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:text="Aktifitas"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <include layout="@layout/ranking_item" />
+
+        <include layout="@layout/ranking_item" />
+
+        <include layout="@layout/ranking_item" />
+
+        <include layout="@layout/ranking_item" />
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

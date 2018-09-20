@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">Quiz Mania</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+
+
+
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_nav_draw">NavDraw</string>
+    <string name="title_activity_alarm_receiver">Alarm</string>
+
+    <string name="btn_start"> Start </string>
+    <string name="btn_stop"> Stop </string>
+
+    <string name="title_activity_main">Kuister</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_info">Info Aplikasi</string>
+    <string name="title_activity_pengaturan">Pengaturan</string>
+    <string name="title_activity_profil">Profil</string>
+    <string name="title_activity_edit_profil">Edit Profil</string>
+
+    <!-- Strings related to PreferenceSettings -->
+    <string name="pref_title_waktu_otomatis">Waktu Otomatis</string>
+    <string name="pref_description_waktu_otomatis">Zona waktu dapat diatur untuk berubah secara otomatis menyesuaikan zona saat itu</string>
+
+    <string name="pref_title_zona_waktu">Zona Waktu</string>
+    <string-array name="pref_list_zona_waktu">
+        <item>(GMT+7:00) Krasnoyarsk</item>
+        <item>(GMT+7:00) Bangkok</item>
+        <item>(GMT+7:00) Jakarta</item>
+        <item>(GMT+8:00) Beijing</item>
+        <item>(GMT+8:00) Hongkong</item>
+        <item>(GMT+7:00) Kuala Lumpur</item>
+    </string-array>
+    <string-array name="pref_list_values_zona_waktu">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="pref_title_alarm">Diam Setelah</string>
+    <string-array name="pref_list_alarm_time">
+        <item>5 Menit</item>
+        <item>10 Menit</item>
+        <item>15 Menit</item>
+        <item>20 Menit</item>
+        <item>Tidak Pernah</item>
+    </string-array>
+    <string-array name="pref_list_value_alarm">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="pref_title_snooze">Waktu Tidur</string>
+    <string-array name="pref_list_snooze_time">
+        <item>5 Menit</item>
+        <item>10 Menit</item>
+        <item>15 Menit</item>
+        <item>20 Menit</item>
+    </string-array>
+    <string-array name="pref_list_value_snooze">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_title_voice_alarm">Suara Alarm</string>
+    <string-array name="pref_list_voice_alarm">
+        <item>Helium</item>
+        <item>Krypton</item>
+        <item>Neon</item>
+        <item>Oxygen</item>
+    </string-array>
+    <string-array name="pref_list_value_voice">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Fragment Kuis Sekarang -->
+    <string name="fragment_name1">Kuis Sekarang</string>
+    <string name="tab1">Tingkat Pendidikan</string>
+
+    <string name="fragment_name2">Atur Waktu Kuis</string>
+    <string name="tab2">Tab2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Spinner Tingkat Pendidikan -->
+    <string-array name="spinner_tingkat_pendidikan">
+        <item>smp kelas 1</item>
+        <item>smp kelas 2</item>
+        <item>smp kelas 3</item>
+    </string-array>
+
+    <!-- Spinner Gender -->
+    <string-array name="spinner_gender">
+        <item>Tidak Ada</item>
+        <item>Laki - Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string name="action_edit">Edit</string>
+    <string name="title_activity_soal">SoalActivity</string>
+    <string name="title_activity_friends">Friends</string>
+
+
+
+
+
+        <string name="none">none</string>
+
+        <color name="main">@android:color/holo_blue_dark</color>
+        <color name="text">#AAA</color>
+
+        <string name="friends">Friends</string>
+        <string name="about">About</string>
+        <string name="logout">Logout</string>
+
+        <string name="hint_email">email</string>
+        <string name="hint_password">Password</string>
+        <string name="sign_in">Sign in</string>
+
+        <string name="hint_type_name">Type friend name here…</string>
+        <string name="hint_type_message">Type message here…</string>
+        <string name="send">Send</string>
+        <string name="hi_friend_hi">Hi</string>
+        <string name="hi_friend_friend">. This message for you: %s</string>
+        <string name="hi_friend">Hi %1$s. This message for you: %2$s</string>
+        <string name="message_sended">Message sended.</string>
+
+    <string name="no_internet_and_cache">
+        No internet connection and the cached data is not available. Check the connection or try again later.
+    </string>
+
+    <string name="not_available">
+        No internet connection. Function is not availbale in offline mode.
+    </string>
+
+        <string name="error_get_friends">Failed to get friends, error: %1$s</string>
+        <string name="empty_link">Sorry, empty link.</string>
+        <string name="error">Error!</string>
+
+        <string name="choose_network">Choose social network to login</string>
+
+        <string name="cashed_data">You see the cached data.</string>
+
+        <string name="action_search">Search</string>
+        <string name="action_clear">Clear</string>
+        <string name="action_sort">Sort</string>
+
+        <string name="sort_by_name">Sort by name</string>
+        <string name="sort_by_id">Sort by id</string>
+        <string name="sort_cancel">Cancel</string>
+
+        <!-- ASNE Tutorial keys -->
+        <string name="facebook_app_id">857437467682586</string>
+        <string name="twitter_consumer_key">8Gy3OKQMbKJ15BH0BferBNHEj</string>
+        <string name="twitter_consumer_secret">dSUHvkbS8xCwoS6lozPAFgDtIuKhTGkRW1OYXJqxBCMgKMyDX4</string>
+        <string name="vk_app_id">4972684</string>
+
+        <string name="mint_api_key">0f58b951</string>
+    <string name="title_activity_ranking">Ranking</string>
+
+
+
+</resources>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/primary_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:id="@+id/linearLayout">
+
+        <ImageView android:src="@drawable/logo"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Quiz Mania!"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:typeface="normal"
+            android:fontFamily=""
+            android:textSize="30dp"
+            android:layout_below="@+id/ProgressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:enabled="true"
+            android:focusable="true"
+            android:maxHeight="@dimen/abc_action_button_min_height_material"
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp">
+    </ProgressBar>
+
+
+</RelativeLayout>
